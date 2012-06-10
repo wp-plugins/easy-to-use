@@ -1,0 +1,27 @@
+.login form .forgetmenot { /* fade-out "remember me" */
+    opacity: 0.5;
+    transition: opacity .3s ease;
+    -webkit-transition: opacity .3s ease; /* chrome and safari */
+    -moz-transition: opacity .3s ease; /* firefox */
+    -o-transition: opacity .3s ease; /* opera */
+}
+.login form .forgetmenot:hover {  /* fade-in "remember me" on hover */
+    opacity: 1;
+}
+
+.login form label {
+    font-size: 18px;
+    line-height: 1.2em;
+}
+
+.login form .input, .login input[type="text"] {
+    margin-bottom: 25px;
+}
+
+.login form .input:focus, .login input[type="text"]:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); /* chrome and safari */
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6); /* firefox */
+}
