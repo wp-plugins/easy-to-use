@@ -1,1 +1,1 @@
-jQuery(function($){	$('#loginform input#rememberme').prop("checked", true); // enable "remember me" by default	$('#loginform input#user_pass').prop('type', 'text'); // unmask the password});
+jQuery(function($){	$('#loginform input#rememberme').prop('checked', true); // enable "remember me" by default	$('input[type=password]').prop('type', 'text'); // unmask all the password inputs});

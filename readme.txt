@@ -5,7 +5,7 @@ Tags: usability, ux, password, remember, remember-me
 Author URI: http://web-profile.com.ua/wordpress/
 Requires at least: 3.0
 Tested up to: 3.3.1
-Stable tag: 1.0
+Stable tag: 1.1
 
 Use your site more easy.
 
@@ -14,8 +14,9 @@ Use your site more easy.
 Plugin adds some improvements for ease of use WordPress site.
 
 = Login form improvements: =
-* showing unmasked password
+* showing unmasked password inputs
 * enabling "remember me" checkbox by default
+* highlighting the focused inputs
 
 [Easy to use plugin page](http://web-profile.com.ua/wordpress/plugins/easy-to-use/)
 
@@ -42,6 +43,10 @@ Most part of users want to be remembered.
 1. without and with the plugin
 
 == Changelog ==
+
+= 1.1 =
+* unmasking password inputs everywhere in admin section
+* highlighting the focused inputs everywhere in admin section
 
 = 1.0 =
 * initial release
