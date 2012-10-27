@@ -1,0 +1,62 @@
+=== Easy to use ===
+Contributors: webvitaly
+Donate link: http://web-profile.com.ua/donate/
+Tags: usability, ux, password, remember, remember-me, unmask, login, easy-to-use, easy
+Requires at least: 3.0
+Tested up to: 3.5
+Stable tag: 1.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Use your site more easy.
+
+== Description ==
+
+Plugin adds some improvements for ease of use WordPress site.
+
+= Login form improvements: =
+* showing unmasked password inputs
+* enabling "remember me" checkbox by default
+* highlighting the focused inputs
+
+**[Easy to use support page](http://web-profile.com.ua/wordpress/plugins/easy-to-use/)**
+
+
+= Useful plugins: =
+* ["Anti-spam" - block spam in comments](http://wordpress.org/extend/plugins/anti-spam/ "no spam, no captcha")
+* ["Filenames to latin" - sanitize filenames to latin during upload](http://wordpress.org/extend/plugins/filenames-to-latin/ "sanitize filenames to latin")
+* ["Page-list" - show list of pages with shortcodes](http://wordpress.org/extend/plugins/page-list/ "list of pages with shortcodes")
+* ["Iframe" - embed iframe with shortcode](http://wordpress.org/extend/plugins/iframe/ "embed iframe")
+
+
+
+== Frequently Asked Questions ==
+
+= Why password should be unmasked? =
+
+There will be less mistakes during login if user will see the password while typing. [Jacob Nilsen about stop masking the password](http://www.useit.com/alertbox/passwords.html)
+
+= Why "remember me" should be enabled by default? =
+
+[Has the time come to kill the “Remember me” check box and just assume that people using shared computers will simply logout? - David Heinemeier Hansson from 37signals](http://37signals.com/svn/posts/1920-has-the-time-come-to-kill-the-remember-me)
+
+== Screenshots ==
+
+1. without and with the plugin
+
+== Changelog ==
+
+= 1.2 - 2012-10-28 =
+* minor changes
+
+= 1.1 =
+* unmasking password inputs everywhere in admin section
+* highlighting the focused inputs everywhere in admin section
+
+= 1.0 =
+* initial release
+
+== Installation ==
+
+1. install and activate the plugin on the Plugins page
+2. use your site more easy
