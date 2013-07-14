@@ -1,40 +1,36 @@
 === Easy to use ===
 Contributors: webvitaly
 Donate link: http://web-profile.com.ua/donate/
-Tags: usability, ux, password, remember, remember-me, unmask, login, easy-to-use, easy
+Tags: usability, ux, password, remember, remember-me, unmask, login, form, easy-to-use, easy
 Requires at least: 3.0
-Tested up to: 3.5
-Stable tag: 1.2
+Tested up to: 3.5.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Use your site more easy.
+Use your site more easily.
 
 == Description ==
 
-Plugin adds some improvements for ease of use WordPress site.
+[Easy to use](http://web-profile.com.ua/wordpress/plugins/easy-to-use/ "Plugin page") |
+[Donate](http://web-profile.com.ua/donate/ "Support the development")
 
-= Login form improvements: =
+= Improvements made by the plugin: =
 * showing unmasked password inputs
-* enabling "remember me" checkbox by default
+* enabling "remember me" checkbox by default on login form
 * highlighting the focused inputs
 
-**[Easy to use support page](http://web-profile.com.ua/wordpress/plugins/easy-to-use/)**
-
-
-= Useful plugins: =
-* ["Anti-spam" - block spam in comments](http://wordpress.org/extend/plugins/anti-spam/ "no spam, no captcha")
-* ["Filenames to latin" - sanitize filenames to latin during upload](http://wordpress.org/extend/plugins/filenames-to-latin/ "sanitize filenames to latin")
-* ["Page-list" - show list of pages with shortcodes](http://wordpress.org/extend/plugins/page-list/ "list of pages with shortcodes")
-* ["Iframe" - embed iframe with shortcode](http://wordpress.org/extend/plugins/iframe/ "embed iframe")
-
+= Useful: =
+* ["Anti-spam" - block spam in comments](http://wordpress.org/plugins/anti-spam/ "no spam, no captcha")
+* ["Filenames to latin" - sanitize filenames to latin during upload](http://wordpress.org/plugins/filenames-to-latin/ "sanitize filenames to latin")
+* ["activetab" - responsive light and clean theme](http://wordpress.org/themes/activetab "responsive light theme")
 
 
 == Frequently Asked Questions ==
 
 = Why password should be unmasked? =
 
-There will be less mistakes during login if user will see the password while typing. [Jacob Nilsen about stop masking the password](http://www.useit.com/alertbox/passwords.html)
+There will be less mistakes during login if user will see the password while typing. [Jacob Nilsen about stop masking the password](http://www.nngroup.com/articles/stop-password-masking/)
 
 = Why "remember me" should be enabled by default? =
 
@@ -45,6 +41,9 @@ There will be less mistakes during login if user will see the password while typ
 1. without and with the plugin
 
 == Changelog ==
+
+= 1.3 - 2013-07-14 =
+* code refactoring
 
 = 1.2 - 2012-10-28 =
 * minor changes
@@ -59,4 +58,4 @@ There will be less mistakes during login if user will see the password while typ
 == Installation ==
 
 1. install and activate the plugin on the Plugins page
-2. use your site more easy
+2. use your site more easily
