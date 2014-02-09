@@ -3,10 +3,10 @@ Contributors: webvitaly
 Donate link: http://web-profile.com.ua/donate/
 Tags: usability, ux, password, remember, remember-me, unmask, login, form, easy-to-use, easy
 Requires at least: 3.0
-Tested up to: 3.5.2
-Stable tag: 1.3
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tested up to: 3.8.1
+Stable tag: 1.4
+License: GPLv3
+License URI: http://www.gnu.org/licenses/gpl.html
 
 Use your site more easily.
 
@@ -23,7 +23,7 @@ Use your site more easily.
 = Useful: =
 * ["Anti-spam" - block spam in comments](http://wordpress.org/plugins/anti-spam/ "no spam, no captcha")
 * ["Filenames to latin" - sanitize filenames to latin during upload](http://wordpress.org/plugins/filenames-to-latin/ "sanitize filenames to latin")
-* ["activetab" - responsive light and clean theme](http://wordpress.org/themes/activetab "responsive light theme")
+* ["activetab" - responsive clean theme](http://wordpress.org/themes/activetab "responsive light and clean theme")
 
 
 == Frequently Asked Questions ==
@@ -41,6 +41,9 @@ There will be less mistakes during login if user will see the password while typ
 1. without and with the plugin
 
 == Changelog ==
+
+= 1.4 - 2014-02-09 =
+* minor updates
 
 = 1.3 - 2013-07-14 =
 * code refactoring

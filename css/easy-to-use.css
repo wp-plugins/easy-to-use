@@ -12,24 +12,27 @@ http://wordpress.org/plugins/easy-to-use/
 .wp-admin input[type="number"]:focus, .wp-admin input[type="search"]:focus,
 .wp-admin input[type="tel"]:focus, .wp-admin input[type="url"]:focus,
 .wp-admin select:focus { /* hilite focused inputs */
-	border-color: rgba(82, 168, 236, 0.8);
+	border-color: #66afe9;
 	outline: 0;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, .6);
+	transition: all 0.3s ease;
 }
 
 
 /* login section */
 .login form .forgetmenot { /* fade-out "remember me" */
     opacity: 0.5;
-	transition: opacity .3s ease;
+	transition: opacity 0.3s ease;
 }
 .login form .forgetmenot:hover {  /* fade-in "remember me" on hover */
     opacity: 1;
 }
 
-
-.login form .input:focus, .login input[type="text"]:focus, .login input[type="password"]:focus { /* hilite focused inputs */
-	border-color: rgba(82, 168, 236, 0.8);
+.login form .input:focus,
+.login input[type="text"]:focus,
+.login input[type="password"]:focus { /* hilite focused inputs */
+	border-color: #66afe9;
 	outline: 0;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, .6);
+	transition: all 0.3s ease;
 }

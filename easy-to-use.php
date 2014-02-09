@@ -3,13 +3,13 @@
 Plugin Name: Easy to use
 Plugin URI: http://wordpress.org/plugins/easy-to-use/
 Description: Use your site more easily.
-Version: 1.3
+Version: 1.4
 Author: webvitaly
 Author URI: http://web-profile.com.ua/wordpress/plugins/
-License: GPLv2 or later
+License: GPLv3
 */
 
-$easytouse_unqprfx_version = '1.3';
+$easytouse_unqprfx_version = '1.4';
 
 if( ! function_exists( 'easy_to_use_unqprfx_login_enqueue_scripts' ) ) :
 	function easy_to_use_unqprfx_login_enqueue_scripts() {
