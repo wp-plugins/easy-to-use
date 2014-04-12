@@ -1,24 +1,25 @@
-=== Easy to use ===
+=== Easy-to-use ===
 Contributors: webvitaly
 Donate link: http://web-profile.com.ua/donate/
-Tags: usability, ux, password, remember, remember-me, unmask, login, form, easy-to-use, easy
+Tags: usability, ux, password, remember, rememberme, unmask, login, form
 Requires at least: 3.0
-Tested up to: 3.8.1
-Stable tag: 1.4
+Tested up to: 3.9
+Stable tag: 1.5
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
-Use your site more easily.
+Unmasks password inputs and enables 'remember-me' by default.
 
 == Description ==
 
-[Easy to use](http://web-profile.com.ua/wordpress/plugins/easy-to-use/ "Plugin page") |
+[Easy-to-use](http://web-profile.com.ua/wordpress/plugins/easy-to-use/ "Plugin page") |
 [Donate](http://web-profile.com.ua/donate/ "Support the development")
 
 = Improvements made by the plugin: =
-* showing unmasked password inputs
+* unmasking password inputs on focus
 * enabling "remember me" checkbox by default on login form
 * highlighting the focused inputs
+
 
 = Useful: =
 * ["Anti-spam" - block spam in comments](http://wordpress.org/plugins/anti-spam/ "no spam, no captcha")
@@ -41,6 +42,9 @@ There will be less mistakes during login if user will see the password while typ
 1. without and with the plugin
 
 == Changelog ==
+
+= 1.5 - 2014-04-12 =
+* unmask password fields only on focus
 
 = 1.4 - 2014-02-09 =
 * minor updates
