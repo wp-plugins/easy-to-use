@@ -1,10 +1,10 @@
 === Easy-to-use ===
 Contributors: webvitaly
 Donate link: http://web-profile.com.ua/donate/
-Tags: usability, ux, password, remember, rememberme, unmask, login, form
+Tags: usability, ux, password, remember, rememberme, remember-me, unmask, login, register, registration, form, easy-to-use
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.5
+Stable tag: 1.6
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -35,13 +35,17 @@ There will be less mistakes during login if user will see the password while typ
 
 = Why "remember me" should be enabled by default? =
 
-[Has the time come to kill the “Remember me” check box and just assume that people using shared computers will simply logout? - David Heinemeier Hansson from 37signals](http://37signals.com/svn/posts/1920-has-the-time-come-to-kill-the-remember-me)
+[Has the time come to kill the "Remember me" check box and just assume that people using shared computers will simply logout? - David Heinemeier Hansson from 37signals](http://37signals.com/svn/posts/1920-has-the-time-come-to-kill-the-remember-me)
 
 == Screenshots ==
 
 1. without and with the plugin
 
 == Changelog ==
+
+= 1.6 - 2014-05-27 =
+* add unmasking of the password field and highlighting of the focused inputs to frontend section (add plugin scripts and styles to frontend section too)
+* code refactoring
 
 = 1.5 - 2014-04-12 =
 * unmask password fields only on focus

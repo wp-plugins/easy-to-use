@@ -4,35 +4,35 @@ wordpress.org/plugins/easy-to-use/
 */
 
 
-/* admin section */
-.wp-admin textarea:focus, .wp-admin input[type="text"]:focus,
-.wp-admin input[type="password"]:focus, .wp-admin input[type="file"]:focus,
-.wp-admin input[type="button"]:focus, .wp-admin input[type="submit"]:focus,
-.wp-admin input[type="reset"]:focus, .wp-admin input[type="email"]:focus,
-.wp-admin input[type="number"]:focus, .wp-admin input[type="search"]:focus,
-.wp-admin input[type="tel"]:focus, .wp-admin input[type="url"]:focus,
-.wp-admin select:focus { /* hilite focused inputs */
-	border-color: #66afe9;
-	outline: 0;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, .6);
-	transition: all 0.3s ease;
+textarea, input[type="text"],
+input[type="password"], input[type="file"],
+input[type="button"], input[type="submit"],
+input[type="reset"], input[type="email"],
+input[type="number"], input[type="search"],
+input[type="tel"], input[type="url"],
+select, button {
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
 
-/* login section */
+textarea:focus, input[type="text"]:focus,
+input[type="password"]:focus, input[type="file"]:focus,
+input[type="button"]:focus, input[type="submit"]:focus,
+input[type="reset"]:focus, input[type="email"]:focus,
+input[type="number"]:focus, input[type="search"]:focus,
+input[type="tel"]:focus, input[type="url"]:focus,
+select:focus, button:focus { /* hilite focused inputs */
+	border-color: #66afe9;
+	outline: 0;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+
+/* login section - "remember me" */
 .login form .forgetmenot { /* fade-out "remember me" */
-    opacity: 0.5;
+	opacity: 0.5;
 	transition: opacity 0.3s ease;
 }
 .login form .forgetmenot:hover {  /* fade-in "remember me" on hover */
-    opacity: 1;
-}
-
-.login form .input:focus,
-.login input[type="text"]:focus,
-.login input[type="password"]:focus { /* hilite focused inputs */
-	border-color: #66afe9;
-	outline: 0;
-	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(102, 175, 233, .6);
-	transition: all 0.3s ease;
+	opacity: 1;
 }
