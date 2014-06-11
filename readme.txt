@@ -45,7 +45,7 @@ There will be less mistakes during login if user will see the password while typ
 
 = 1.7 - 2014-06-11 =
 * unmask password fields loaded via ajax (thanks to Zane Matthew - the author of the [zM AJAX Login & Register](http://wordpress.org/plugins/zm-ajax-login-register/) plugin)
-* enable 'remember-me' checkbox by default loaded via ajax
+* enable by default 'remember-me' checkbox loaded via ajax
 
 = 1.6 - 2014-05-27 =
 * add unmasking of the password field and highlighting of the focused inputs to frontend section (add plugin scripts and styles to frontend section too)
