@@ -4,7 +4,7 @@ Donate link: http://web-profile.com.ua/donate/
 Tags: usability, ux, password, remember, rememberme, remember-me, unmask, login, register, registration, form, easy-to-use
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.6
+Stable tag: 1.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -23,7 +23,7 @@ Unmasks password inputs and enables 'remember-me' by default.
 
 = Useful: =
 * ["Anti-spam" - block spam in comments](http://wordpress.org/plugins/anti-spam/ "no spam, no captcha")
-* ["Filenames to latin" - sanitize filenames to latin during upload](http://wordpress.org/plugins/filenames-to-latin/ "sanitize filenames to latin")
+* ["Security-protection" - protection from brute-force attacks](http://wordpress.org/plugins/security-protection/ "blocks brute-force attacks")
 * ["activetab" - responsive clean theme](http://wordpress.org/themes/activetab "responsive light and clean theme")
 
 
@@ -42,6 +42,10 @@ There will be less mistakes during login if user will see the password while typ
 1. without and with the plugin
 
 == Changelog ==
+
+= 1.7 - 2014-06-11 =
+* unmask password fields loaded via ajax (thanks to Zane Matthew - the author of the [zM AJAX Login & Register](http://wordpress.org/plugins/zm-ajax-login-register/) plugin)
+* enable 'remember-me' checkbox by default loaded via ajax
 
 = 1.6 - 2014-05-27 =
 * add unmasking of the password field and highlighting of the focused inputs to frontend section (add plugin scripts and styles to frontend section too)

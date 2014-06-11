@@ -3,7 +3,7 @@
 Plugin Name: Easy-to-use
 Plugin URI: http://wordpress.org/plugins/easy-to-use/
 Description: Unmasks password inputs and enables 'remember-me' by default.
-Version: 1.6
+Version: 1.7
 Author: webvitaly
 Author URI: http://web-profile.com.ua/wordpress/plugins/
 License: GPLv3
