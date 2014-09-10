@@ -3,7 +3,7 @@ Contributors: webvitaly
 Donate link: http://web-profile.com.ua/donate/
 Tags: usability, ux, password, remember, rememberme, remember-me, unmask, login, register, registration, form, easy-to-use
 Requires at least: 3.0
-Tested up to: 3.9
+Tested up to: 4.0
 Stable tag: 1.7
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
@@ -12,6 +12,7 @@ Unmasks password inputs and enables 'remember-me' by default.
 
 == Description ==
 
+[WordPress Pro plugins](http://codecanyon.net/popular_item/by_category?category=wordpress&ref=webvitaly) |
 [Easy-to-use](http://web-profile.com.ua/wordpress/plugins/easy-to-use/ "Plugin page") |
 [Donate](http://web-profile.com.ua/donate/ "Support the development")
 
@@ -23,8 +24,8 @@ Unmasks password inputs and enables 'remember-me' by default.
 
 = Useful: =
 * ["Anti-spam" - block spam in comments](http://wordpress.org/plugins/anti-spam/ "no spam, no captcha")
+* ["Anti-spam Pro"](http://codecanyon.net/item/antispam-pro/6491169?ref=webvitaly)
 * ["Security-protection" - protection from brute-force attacks](http://wordpress.org/plugins/security-protection/ "blocks brute-force attacks")
-* ["activetab" - responsive clean theme](http://wordpress.org/themes/activetab "responsive light and clean theme")
 
 
 == Frequently Asked Questions ==
