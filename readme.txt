@@ -3,12 +3,12 @@ Contributors: webvitaly
 Donate link: http://web-profile.com.ua/donate/
 Tags: usability, ux, password, remember, rememberme, remember-me, unmask, login, register, registration, form, easy-to-use
 Requires at least: 3.0
-Tested up to: 4.1
-Stable tag: 1.7
+Tested up to: 4.4
+Stable tag: 1.8
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
-Unmasks password inputs and enables 'remember-me' by default.
+Unmasks password inputs, enables 'remember-me' by default, sets login interval to 1 year.
 
 == Description ==
 
@@ -18,7 +18,8 @@ Unmasks password inputs and enables 'remember-me' by default.
 
 = Improvements made by the plugin: =
 * unmasking password inputs on focus
-* enabling "remember me" checkbox by default on login form
+* enabling "remember me" checkbox by default
+* setting login interval to 1 year
 * highlighting the focused inputs
 
 
@@ -37,11 +38,21 @@ There will be less mistakes during login if user will see the password while typ
 
 [Has the time come to kill the "Remember me" check box and just assume that people using shared computers will simply logout? - David Heinemeier Hansson from 37signals](http://37signals.com/svn/posts/1920-has-the-time-come-to-kill-the-remember-me)
 
+= Why do I need to increase login interval? =
+
+By default WordPress sets login interval to 14 days.
+It is annoying for the users to enter login credentials every 14 days and setting login interval to 1 year more usable.
+If user forgot to logout on public computer it is possible to visit user's profile via link: http://site.com/wp-admin/profile.php and click "Log Out of All Other Sessions" button.
+
 == Screenshots ==
 
-1. without and with the plugin
+1. login form before and after Easy-to-use plugin installation
 
 == Changelog ==
+
+= 1.8 - 2015-06-07 =
+* increase login interval to 1 year
+* move javasscript to footer
 
 = 1.7 - 2014-06-11 =
 * unmask password fields loaded via ajax (thanks to Zane Matthew - the author of the [zM AJAX Login & Register](http://wordpress.org/plugins/zm-ajax-login-register/) plugin)
