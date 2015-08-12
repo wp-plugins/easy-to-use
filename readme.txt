@@ -3,8 +3,8 @@ Contributors: webvitaly
 Donate link: http://web-profile.com.ua/donate/
 Tags: usability, ux, password, remember, rememberme, remember-me, unmask, login, register, registration, form, easy-to-use
 Requires at least: 3.0
-Tested up to: 4.4
-Stable tag: 1.8
+Tested up to: 4.5
+Stable tag: 2.0
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -17,10 +17,10 @@ Unmasks password inputs, enables 'remember-me' by default, sets login interval t
 > [Donate](http://web-profile.com.ua/donate/ "Support the development")
 
 = Improvements made by the plugin: =
-* unmasking password inputs on focus
-* enabling "remember me" checkbox by default
-* setting login interval to 1 year
-* highlighting the focused inputs
+* unmasks password inputs on focus (login and admin sections)
+* enables "remember me" checkbox by default
+* sets login interval to 1 year
+* hilites the focused inputs (login and admin sections)
 
 
 = Useful: =
@@ -50,9 +50,13 @@ If user forgot to logout on public computer it is possible to visit user's profi
 
 == Changelog ==
 
+= 2.0 - 2015-08-12 =
+* code refactoring (OOP approach instead of procudural)
+* add assets only in login and admin sections (removed from frontend to speedup websites)
+
 = 1.8 - 2015-06-07 =
 * increase login interval to 1 year
-* move javasscript to footer
+* move javascript to footer
 
 = 1.7 - 2014-06-11 =
 * unmask password fields loaded via ajax (thanks to Zane Matthew - the author of the [zM AJAX Login & Register](http://wordpress.org/plugins/zm-ajax-login-register/) plugin)
